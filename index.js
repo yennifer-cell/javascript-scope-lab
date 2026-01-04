@@ -16,7 +16,7 @@ var newBurger = 'Flatburger';
 
     // add another function
     function changeFeaturedDrink() {
-      let FeaturedDrink = 'The Javashake'
+      featuredDrink = 'The Javashake'
     }
 
 //call the function to test 
