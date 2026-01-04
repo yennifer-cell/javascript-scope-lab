@@ -4,19 +4,19 @@ let featuredDrink = ['Strawberry', 'Milkshake'];
 
 //function and block 
 function addBurger() {
-var newBurger = 'Flatburger';
+const newBurger = 'Flatburger';
    burgers.push(newBurger);
 }
 
   //variable declaration and scope
   if (true) {
-    let anotherNewBurger = 'Maple Bacon Burger';
+    const anotherNewBurger = 'Maple Bacon Burger';
      burgers.push(anotherNewBurger);
   }
 
     // add another function
     function changeFeaturedDrink() {
-      featuredDrink = 'The Javashake'
+      featuredDrink = 'The Javashake';
     }
 
 //call the function to test 
