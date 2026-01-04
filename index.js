@@ -1,10 +1,10 @@
 // Global scope
-let burgers = ['Hamburger', 'Cheeseburger'];
+const burgers = ['Hamburger', 'Cheeseburger'];
 let featuredDrink = ['Strawberry', 'Milkshake'];
 
 //function and block 
 function addBurger() {
-  let newBurger = 'Flatburger';
+var newBurger = 'Flatburger';
    burgers.push(newBurger);
 }
 
