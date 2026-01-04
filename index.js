@@ -1,6 +1,6 @@
 // Global scope
 const burgers = ['Hamburger', 'Cheeseburger'];
-let featuredDrink = ['Strawberry', 'Milkshake'];
+let featuredDrink = 'Strawberry Milkshake';
 
 //function and block 
 function addBurger() {
@@ -19,9 +19,3 @@ const newBurger = 'Flatburger';
       featuredDrink = 'The Javashake';
     }
 
-//call the function to test 
-addBurger();
-console.log('After adding burger:', burgers);
-
-changeFeaturedDrink();
-console.log('After changing drink:', featuredDrink);
